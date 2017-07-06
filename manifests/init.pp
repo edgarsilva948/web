@@ -6,7 +6,7 @@ class web {
   ->
   file { 'web.conf':
     ensure => file,
-    path   => '/etc/apache2/sites-enabled',
+    path   => '/etc/apache2/sites-enabled/web.conf',
     mode   => '0644',
     owner  => 'root',
     group  => 'root',
